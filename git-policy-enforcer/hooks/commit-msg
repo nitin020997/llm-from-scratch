@@ -1,0 +1,6 @@
+#!/bin/sh
+SCRIPT_DIR="$(git rev-parse --show-toplevel)"
+python3 "$SCRIPT_DIR/enforce_policy.py" \
+  --commit-file "$1" \
+  --policy "$SCRIPT_DIR/policy.yaml"
+exit $?

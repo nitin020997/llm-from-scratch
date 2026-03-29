@@ -1,0 +1,7 @@
+#!/bin/sh
+SCRIPT_DIR="$(git rev-parse --show-toplevel)"
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+python3 "$SCRIPT_DIR/enforce_policy.py" \
+  --branch "$CURRENT_BRANCH" \
+  --policy "$SCRIPT_DIR/policy.yaml"
+exit $?

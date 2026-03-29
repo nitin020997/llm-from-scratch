@@ -1,0 +1,19 @@
+protected_branches:
+  - main
+  - master
+  - production
+
+allowed_branch_patterns:
+  - "^feature/[a-z0-9_-]+"
+  - "^bugfix/[a-z0-9_-]+"
+  - "^hotfix/[a-z0-9_-]+"
+  - "^release/[0-9]+\\.[0-9]+"
+  - "^chore/[a-z0-9_-]+"
+
+commit_message:
+  min_length: 10
+  max_length: 100
+  pattern: "^(feat|fix|hotfix|chore|docs|refactor|test|ci)(\\([a-z0-9_-]+\\))?: .+"
+  pattern_hint: "Type(scope): description  →  e.g. feat(auth): add JWT validation"
+
+direct_push_to_protected: false
