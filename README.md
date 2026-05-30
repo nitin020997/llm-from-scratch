@@ -28,7 +28,9 @@ This repository includes:
 
 ## Notes
 
-- The code intentionally avoids copy-style "episode" wording and uses a simple ta
-# llm-from-scratch
+- The code intentionally avoids copy-style "episode" wording and uses a simple task-oriented naming style.
+- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `raceful API key validati- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `raceful API key validati- `01tch` — a compact Python repo- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01-l - `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `racefu a- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- ` e- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01 task-oriented reference for building LLM integrations, check it out:
+https://github.com/nitin020997/llm-from-scratch
 
-A small, prt_api_call.py` demonstrates minimal request/response flow and graceful API key validation.
+#ai #LLM #Python #DevOps
+```
