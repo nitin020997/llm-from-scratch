@@ -29,7 +29,21 @@ This repository includes:
 ## Notes
 
 - The code intentionally avoids copy-style "episode" wording and uses a simple task-oriented naming style.
-- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `raceful API key validati- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `raceful API key validati- `01tch` — a compact Python repo- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01-l - `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `racefu a- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- ` e- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01- `01 task-oriented reference for building LLM integrations, check it out:
+- `01_first_api_call.py` demonstrates minimal request/response flow and graceful API key validation.
+
+## LinkedIn post draft
+
+Copy this post to share the repo:
+
+```text
+I just launched `llm-from-scratch` — a compact Python repo showing how to call an LLM API cleanly, without tutorial jargon.
+
+It includes:
+- a minimal single-call example with API key validation
+- a DevOps/SRE system prompt example
+- a multi-turn chat example with conversation history
+
+If you want a simple, task-oriented reference for building LLM integrations, check it out:
 https://github.com/nitin020997/llm-from-scratch
 
 #ai #LLM #Python #DevOps
